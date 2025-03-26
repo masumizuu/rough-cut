@@ -112,7 +112,7 @@ export default function Experience({ phase }: ExperienceProps) {
         
         {/* Simulated lighting (lamp + screen glow) */}
         <pointLight
-            position={[0, 0, 7.7374]} // Converted from Blender
+            position={[0, 7, 7.7374]} // Converted from Blender
             intensity={100}
             distance={20}
             decay={2}
