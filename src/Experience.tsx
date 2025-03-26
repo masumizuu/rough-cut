@@ -17,7 +17,7 @@ export default function Experience({ phase }: ExperienceProps) {
 
     const group = useRef<THREE.Group>(null)
     const cameraPositions: Record<Phase, { position: [number, number, number]; lookAt: [number, number, number] }> = {
-    start: { position: [0, 0, -7], lookAt: [0, 0, 7] },
+    start: { position: [0, 7, -7], lookAt: [0, 7, 7] },
     vhs: {position: [0, 0, 5], lookAt: [0, -1, 0]},
     'tv-closeup': {position: [0, 1.5, 2], lookAt: [0, 1, 0]},
     'tv-content': {position: [0, 1.3, 0.1], lookAt: [0, 1.3, 0]},
